@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+     height: auto;
+      padding: 20px 3.75%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: white;
+   }
+.gnb { display: flex; justify-content: space-between;}
+
+.gnb_left { width: 260px;}
+.gnb_logo { width: 226px; }
+
+.gnb_center { text-align: center; width: 540px; }
+
+.gnb_center figure {
+   text-align: center;
+}
+/* scroll 될 때 slogan 가운데 오게  */
+
+.gnb_slogan { 
+transition: all 0.6s;
+height: 24px;
+/* slogan animation */
+}
+.gnb_menu { 
+   width:100%; display: flex; justify-content: space-between; margin: 40px 0 0;
+   transition:  margin 0.3s;  /* menu탭에 animation  */
+ }
+.gnb_menu_item { font-family: sans-serif;
+   font-size: 18px; font-weight: 400; line-height: 24px; color:rgb(0,0,0); letter-spacing: 0; -webkit-font-smoothing: antialiased; }
+
+.gnb_right { width: 260px;
+display: flex; justify-content: flex-end;}
+
+.gnb_search{
+   width: 20px;
+   height: 20px;
+   margin-right: 25px;
+}
+.gnb_lang {
+   width: 33px;
+   height: 18px;
+}
+
+
+/* Hero */
+#hero { width: 100%; background-image: none;}
+.hero_wrap { width: 100%; height: auto; background-image: none;}
+.hero_img { width: 100%;}
+.hero_text_wrap { width: 92.5%; margin: 0 auto; display: flex; justify-content: space-between; background-image: none; }
+
+ 
+#project { width: 100%; height: auto; padding: 0 3.57%; margin: 100px 0 0 0;  }
+
+.project_list { width: 100%; display: flex; justify-content: space-between;}
+
+.project_item { width: calc(33.33333% - 20px); margin: 0 10px;}
+.project_item img { width: 100%;}
